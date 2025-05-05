@@ -3,7 +3,9 @@
 https://github.com/lumixen/esphome-hlink-ac
 ## Hardware
 ### Heatpump
-Model NumberRAS-70YHA2
+Model Number:
+
+RAS-70YHA2
 
 ### components
 Connector used (does not fit without modification):
