@@ -43,5 +43,10 @@ Using a flat srewdriver first undo to 4 along the top followed by the two under 
 
 Remove Tape if present and undo three screws
 
-### Modifying connector
+### Modifying Connector:
 If you have the HY2.0 connector just cut off the latching mechanism. If you have a PH2.0 you will need to file down both sides.
+
+### Determin socket Orientation:
+Using a multimeter find the wire that gives ~12V and ground (For me it was the following layout with 12V at the bottom).
+
+![image](https://github.com/user-attachments/assets/7874a811-186e-487b-894d-0b4b0d3a06db)
