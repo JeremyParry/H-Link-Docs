@@ -27,12 +27,18 @@ https://www.aliexpress.com/item/1005006617407766.html
 
 ## Instructions:
 ### Step 1: Heat Pump Dissasembly:
+ - turn of heatpump at master switch
+
+Switch is typically located near the outdoor unit, ensure the green light is no longer illuminated on the indoor unit.
+
  - Remove three screws
 
 These are located along the bottom side of the indoor unit with  plastic covers that just pull off.
+
  - Undo 6 clips
 
 Using a flat srewdriver first undo to 4 along the top followed by the two under the filter cover.
+
  - Remove the electronics housing cover
 
 Remove Tape if present and undo three screws
