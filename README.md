@@ -49,4 +49,5 @@ If you have the HY2.0 connector just cut off the latching mechanism. If you have
 ### Determin socket Orientation:
 Using a multimeter find the wire that gives ~12V and ground (For me it was the following layout with 12V at the bottom).
 
-![image](https://github.com/user-attachments/assets/7874a811-186e-487b-894d-0b4b0d3a06db)
+![image](https://github.com/user-attachments/assets/774b9f2d-0b40-4f59-9ab1-4998cb9af368)
+
