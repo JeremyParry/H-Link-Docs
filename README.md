@@ -62,4 +62,72 @@ Follow the original diagram including using pin 16 and 17 for UART
 ![image](https://github.com/user-attachments/assets/f5737485-2d1a-44ac-94b3-189e04d45427)
 ![image](https://github.com/user-attachments/assets/4ce03b9a-939a-4480-a8fd-891162213673)
 
+### Code
+
+```
+esphome:
+  name: hitachi-h-link-controller
+  friendly_name: Hitachi AC
+
+esp32:
+  board: esp32dev
+  framework:
+    type: esp-idf
+
+# Enable logging
+logger:
+
+# Enable Home Assistant API
+api:
+  encryption:
+    key: "encryption key"
+
+ota:
+  - platform: esphome
+
+wifi:
+  ssid: Wifi
+  password: WifiPassword
+
+uart:
+  id: hitachi_bus
+  tx_pin: GPIO17
+  rx_pin: GPIO16
+  baud_rate: 9600
+  parity: ODD
+
+external_components:
+  - source:
+      type: git
+      url: https://github.com/lumixen/esphome-hlink-ac.git
+      ref: 2025.5.1
+    components: [hlink_ac]
+
+climate:
+  - platform: hlink_ac
+    name: "LoungeAC"
+    hvac_actions: true # set false if you don't need HVAC actions
+
+switch:
+  - platform: hlink_ac
+    remote_lock:
+      name: Remote lock
+    beeper:
+      name: Beeper
+
+sensor:
+  - platform: hlink_ac
+    outdoor_temperature:
+      name: Outdoor temperature
+
+text_sensor:
+  - platform: hlink_ac
+    model_name:
+      name: Model
+
+number:
+  - platform: hlink_ac
+    auto_target_temperature_offset:
+      name: Auto mode temperature offset
+```
 
