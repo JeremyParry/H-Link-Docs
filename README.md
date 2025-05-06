@@ -40,13 +40,25 @@ Switch is typically located near the outdoor unit, ensure the green light is no 
 
 These are located along the bottom side of the indoor unit with  plastic covers that just pull off.
 
+![image](https://github.com/user-attachments/assets/fc4296af-6c1a-4fb5-a470-f3895c1baf4a)
+
+
  - Undo 6 clips
 
 Using a flat srewdriver first undo to 4 along the top followed by the two under the filter cover.
 
+![image](https://github.com/user-attachments/assets/e2d6db87-15da-46ed-9bfa-326974cd86db)
+
+![image](https://github.com/user-attachments/assets/04a918cd-8d9c-4bc8-bdd5-ced297b5f823)
+
  - Remove the electronics housing cover
 
 Remove Tape if present and undo three screws
+
+- Local H-Link header
+
+![image](https://github.com/user-attachments/assets/ce5c5abe-a243-49ce-a749-ca0390d74fd2)
+
 
 ### Modifying Connector:
 If you have a PH2.0 you will need to file down both sides.
